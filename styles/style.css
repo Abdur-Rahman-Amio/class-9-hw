@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul{
+    margin-top: 8px;
+    text-align: center;
+    
+}
+.nav ul li{
+     list-style: none;
+     display: inline-block;
+     position: relative;
+     
+}
+.nav ul li a{
+    text-decoration: none;
+     padding: 8px;
+     border-radius: 150px;
+     transition: 3s;
+          background: goldenrod;
+}
+.nav ul li a:hover{
+    background: gray;
+
+}
+.nav ul li ul{
+    position: absolute;
+    display: none;
+    
+}
+.nav ul li ul li{
+    width: 80px;
+    text-align: left;
+    margin-top: 4px;
+    padding-top: 10px;
+}
+.nav ul li:hover ul{
+    display: block;
+}
+#Table{
+    float: left;
+    color: blue;
+    background: skyblue;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+#button{
+      /* margin-top: 300px;    
+     margin-left: 630px; */
+}
+#button h3 a{
+    text-decoration: none;
+    border: 1px solid skyblue;
+    border-radius: 35%;
+    padding: 14px;
+    color: blueviolet;
+    background-color: chartreuse;
+    transition: 2s;
+}
+#button a:hover{
+    /* color: azure;
+    background-color: black; */
+    transform: translateX(-50px);
+} 
